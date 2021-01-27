@@ -1,0 +1,28 @@
+{
+  "name": "send-email-worker",
+  "version": "1.0.0",
+  "description": "worker for sending email",
+  "main": "index.js",
+  "dependencies": {
+    "bull": "^3.20.0",
+    "dotenv": "^8.2.0",
+    "hh-common": "git+https://github.com/louis-phhh/hh-common.git",
+    "lodash": "^4.17.20",
+    "nodemailer": "^6.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis-phhh/send-email-worker.git"
+  },
+  "keywords": [],
+  "author": "louis.phhh@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louis-phhh/send-email-worker/issues"
+  },
+  "homepage": "https://github.com/louis-phhh/send-email-worker#readme"
+}

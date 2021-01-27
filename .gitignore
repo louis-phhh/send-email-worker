@@ -1,0 +1,12 @@
+node_modules
+.eslintrc.json
+logs
+/logs/*.payme
+/logs/*.log
+package-lock.json
+/package-lock.json
+.eslintrc
+yarn.lock
+yarn-error.log
+/projects/frontend/config/env/*.*
+*.env
